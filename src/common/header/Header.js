@@ -58,7 +58,7 @@ export default function Header({ bookShow, bookShowId }) {
             )}
 
             {bookShow ? (
-              <Link to={"/book-show/" + bookShowId} style={{ textDecoration: "none" }} >
+              <Link to={"bookshow/" + bookShowId} style={{ textDecoration: "none" }} >
                 <Button variant="contained" name="Book Show" color="primary">
                   Book Show
                 </Button>
