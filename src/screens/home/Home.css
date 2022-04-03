@@ -1,0 +1,21 @@
+.second-section {
+  display: flex;
+}
+
+.released-movies {
+  width: 76%;
+}
+
+.released-movies:hover {
+  cursor: pointer;
+}
+
+.filter-form {
+  margin-left: 10px;
+  width: 24%;
+}
+
+.form-control-text-field {
+  width: 100%;
+  margin-top: 20px;
+}
