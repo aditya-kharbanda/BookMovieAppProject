@@ -33,7 +33,7 @@ export default function ReleasedMovies({ movieData }) {
 
           return (
             <ImageListItem key={tile.id}>
-              <Link to={"movie-details/" + tile.id}>
+              <Link to={"/movie-details/" + tile.id}>
                 <img
                   src={tile.poster_url}
                   alt={tile.title}
